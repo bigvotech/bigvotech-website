@@ -162,185 +162,362 @@
     </section>
 
     <!-- ========== GALERI PROYEK PER KLIEN ========== -->
-    <section id="projects" class="projects-gallery">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">PORTOFOLIO KAMI</span>
-                <h2 class="section-title">Proyek Per Klien</h2>
-                <p class="section-subtitle">Beberapa proyek unggulan yang telah kami selesaikan</p>
+<section id="projects" class="projects-gallery">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">PORTOFOLIO KAMI</span>
+            <h2 class="section-title">Proyek Per Klien</h2>
+            <p class="section-subtitle">Beberapa proyek unggulan yang telah kami selesaikan</p>
+        </div>
+
+        <!-- Filter Button -->
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">Semua Proyek</button>
+            <button class="filter-btn" data-filter="it">IT & Security</button>
+            <button class="filter-btn" data-filter="construction">Konstruksi & Sipil</button>
+            <button class="filter-btn" data-filter="integrated">Integrated Solution</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projectsGrid">
+            <!-- Project 1 - PT Bank Jatim -->
+            <div class="project-item" data-category="it">
+                <div class="project-image">
+                    <i class="fas fa-server"></i>
+                </div>
+                <div class="project-info">
+                    <h3>PT Bank Pembangunan Daerah Jawa Timur</h3>
+                    <p class="project-category">IT Infrastructure</p>
+                    <p class="project-desc">Instalasi server room, jaringan fiber optic, dan security system untuk 5 cabang.</p>
+                    <div class="project-year"><i class="far fa-calendar-alt"></i> 2024</div>
+                </div>
             </div>
 
-            <!-- Filter Button -->
-            <div class="project-filters">
-                <button class="filter-btn active" data-filter="all">Semua Proyek</button>
-                <button class="filter-btn" data-filter="it">IT & Security</button>
-                <button class="filter-btn" data-filter="construction">Konstruksi & Sipil</button>
-                <button class="filter-btn" data-filter="integrated">Integrated Solution</button>
+            <!-- Project 2 - PT Surabaya Industrial Estate -->
+            <div class="project-item" data-category="it">
+                <div class="project-image">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <div class="project-info">
+                    <h3>PT Surabaya Industrial Estate Rungkut</h3>
+                    <p class="project-category">Security System</p>
+                    <p class="project-desc">Pemasangan CCTV 100+ titik, access door system, dan guard patrol system.</p>
+                    <div class="project-year"><i class="far fa-calendar-alt"></i> 2023</div>
+                </div>
             </div>
 
-            <!-- Projects Grid -->
-            <div class="projects-grid" id="projectsGrid">
-                <!-- Project 1 - PT Bank Jatim -->
-                <div class="project-item" data-category="it">
-                    <div class="project-image">
-                        <i class="fas fa-server"></i>
-                    </div>
-                    <div class="project-info">
-                        <h3>PT Bank Pembangunan Daerah Jawa Timur</h3>
-                        <p class="project-category">IT Infrastructure</p>
-                        <p class="project-desc">Instalasi server room, jaringan fiber optic, dan security system untuk 5 cabang.</p>
-                        <div class="project-year"><i class="far fa-calendar-alt"></i> 2024</div>
-                    </div>
+            <!-- Project 3 - PT Logistik Nusantara -->
+            <div class="project-item" data-category="integrated">
+                <div class="project-image">
+                    <i class="fas fa-warehouse"></i>
                 </div>
-
-                <!-- Project 2 - PT Surabaya Industrial Estate -->
-                <div class="project-item" data-category="it">
-                    <div class="project-image">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <div class="project-info">
-                        <h3>PT Surabaya Industrial Estate Rungkut</h3>
-                        <p class="project-category">Security System</p>
-                        <p class="project-desc">Pemasangan CCTV 100+ titik, access door system, dan guard patrol system.</p>
-                        <div class="project-year"><i class="far fa-calendar-alt"></i> 2023</div>
-                    </div>
+                <div class="project-info">
+                    <h3>PT Logistik Nusantara (Gudang Pusat)</h3>
+                    <p class="project-category">Integrated Solution</p>
+                    <p class="project-desc">Renovasi gudang + instalasi jaringan dan CCTV warehouse management.</p>
+                    <div class="project-year"><i class="far fa-calendar-alt"></i> 2024</div>
                 </div>
+            </div>
 
-                <!-- Project 3 - PT Logistik Nusantara -->
-                <div class="project-item" data-category="integrated">
-                    <div class="project-image">
-                        <i class="fas fa-warehouse"></i>
-                    </div>
-                    <div class="project-info">
-                        <h3>PT Logistik Nusantara (Gudang Pusat)</h3>
-                        <p class="project-category">Integrated Solution</p>
-                        <p class="project-desc">Renovasi gudang + instalasi jaringan dan CCTV warehouse management.</p>
-                        <div class="project-year"><i class="far fa-calendar-alt"></i> 2024</div>
-                    </div>
+            <!-- Project 4 - PT Marga Jaya Properti -->
+            <div class="project-item" data-category="construction">
+                <div class="project-image">
+                    <i class="fas fa-building"></i>
                 </div>
-
-                <!-- Project 4 - PT Marga Jaya Properti -->
-                <div class="project-item" data-category="construction">
-                    <div class="project-image">
-                        <i class="fas fa-building"></i>
-                    </div>
-                    <div class="project-info">
-                        <h3>PT Marga Jaya Properti</h3>
-                        <p class="project-category">Konstruksi Sipil</p>
-                        <p class="project-desc">Pembangunan kantor 3 lantai + instalasi listrik dan struktur baja.</p>
-                        <div class="project-year"><i class="far fa-calendar-alt"></i> 2023-2024</div>
-                    </div>
+                <div class="project-info">
+                    <h3>PT Marga Jaya Properti</h3>
+                    <p class="project-category">Konstruksi Sipil</p>
+                    <p class="project-desc">Pembangunan kantor 3 lantai + instalasi listrik dan struktur baja.</p>
+                    <div class="project-year"><i class="far fa-calendar-alt"></i> 2023-2024</div>
                 </div>
+            </div>
 
-                <!-- Project 5 - RS Mitra Keluarga -->
-                <div class="project-item" data-category="it">
-                    <div class="project-image">
-                        <i class="fas fa-hospital"></i>
-                    </div>
-                    <div class="project-info">
-                        <h3>RS Mitra Keluarga Surabaya</h3>
-                        <p class="project-category">IT Infrastructure</p>
-                        <p class="project-desc">Instalasi jaringan LAN, backup & restore system, maintain support.</p>
-                        <div class="project-year"><i class="far fa-calendar-alt"></i> 2024</div>
-                    </div>
+            <!-- Project 5 - RS Mitra Keluarga -->
+            <div class="project-item" data-category="it">
+                <div class="project-image">
+                    <i class="fas fa-hospital"></i>
                 </div>
+                <div class="project-info">
+                    <h3>RS Mitra Keluarga Surabaya</h3>
+                    <p class="project-category">IT Infrastructure</p>
+                    <p class="project-desc">Instalasi jaringan LAN, backup & restore system, maintain support.</p>
+                    <div class="project-year"><i class="far fa-calendar-alt"></i> 2024</div>
+                </div>
+            </div>
 
-                <!-- Project 6 - PT Kawasan Industri -->
-                <div class="project-item" data-category="construction">
-                    <div class="project-image">
-                        <i class="fas fa-industry"></i>
-                    </div>
-                    <div class="project-info">
-                        <h3>PT Kawasan Industri Surabaya</h3>
-                        <p class="project-category">Konstruksi & Renovasi</p>
-                        <p class="project-desc">Renovasi gedung perkantoran dan instalasi listrik 3 phase.</p>
-                        <div class="project-year"><i class="far fa-calendar-alt"></i> 2023</div>
-                    </div>
+            <!-- Project 6 - PT Kawasan Industri -->
+            <div class="project-item" data-category="construction">
+                <div class="project-image">
+                    <i class="fas fa-industry"></i>
+                </div>
+                <div class="project-info">
+                    <h3>PT Kawasan Industri Surabaya</h3>
+                    <p class="project-category">Konstruksi & Renovasi</p>
+                    <p class="project-desc">Renovasi gedung perkantoran dan instalasi listrik 3 phase.</p>
+                    <div class="project-year"><i class="far fa-calendar-alt"></i> 2023</div>
+                </div>
+            </div>
+
+            <!-- Project 7 - PT Telkom Akses (Contoh tambahan) -->
+            <div class="project-item" data-category="it">
+                <div class="project-image">
+                    <i class="fas fa-wifi"></i>
+                </div>
+                <div class="project-info">
+                    <h3>PT Telkom Akses Surabaya</h3>
+                    <p class="project-category">Networking</p>
+                    <p class="project-desc">Instalasi fiber optic dan jaringan internet untuk 200+ titik.</p>
+                    <div class="project-year"><i class="far fa-calendar-alt"></i> 2024</div>
+                </div>
+            </div>
+
+            <!-- Project 8 - PT Gudang Garam -->
+            <div class="project-item" data-category="integrated">
+                <div class="project-image">
+                    <i class="fas fa-factory"></i>
+                </div>
+                <div class="project-info">
+                    <h3>PT Gudang Garam Kediri</h3>
+                    <p class="project-category">Integrated Solution</p>
+                    <p class="project-desc">Instalasi security system + struktur kabel railing untuk pabrik.</p>
+                    <div class="project-year"><i class="far fa-calendar-alt"></i> 2023</div>
+                </div>
+            </div>
+
+            <!-- Project 9 - PT Unilever Indonesia (Contoh tambahan) -->
+            <div class="project-item" data-category="construction">
+                <div class="project-image">
+                    <i class="fas fa-building"></i>
+                </div>
+                <div class="project-info">
+                    <h3>PT Unilever Indonesia</h3>
+                    <p class="project-category">Renovasi Kantor</p>
+                    <p class="project-desc">Renovasi gedung kantor eksekutif dan instalasi listrik.</p>
+                    <div class="project-year"><i class="far fa-calendar-alt"></i> 2024</div>
+                </div>
+            </div>
+
+            <!-- Project 10 - PT Pertamina (Contoh tambahan) -->
+            <div class="project-item" data-category="it">
+                <div class="project-image">
+                    <i class="fas fa-database"></i>
+                </div>
+                <div class="project-info">
+                    <h3>PT Pertamina (Persero)</h3>
+                    <p class="project-category">Data Center</p>
+                    <p class="project-desc">Instalasi server room dan backup & restore system.</p>
+                    <div class="project-year"><i class="far fa-calendar-alt"></i> 2024</div>
                 </div>
             </div>
         </div>
-    </section>
+
+        <!-- Pagination Controls -->
+        <div class="pagination-controls" id="paginationControls">
+            <button class="pagination-btn" id="prevPageBtn" disabled>
+                <i class="fas fa-chevron-left"></i> Sebelumnya
+            </button>
+            <div class="pagination-numbers" id="paginationNumbers"></div>
+            <button class="pagination-btn" id="nextPageBtn">
+                Selanjutnya <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+</section>
 
     <!-- ========== TESTIMONI KLIEN ========== -->
-    <section id="testimonials" class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">KATA MEREKA</span>
-                <h2 class="section-title">Testimoni Klien</h2>
-                <p class="section-subtitle">Apa kata klien kami tentang layanan BIGBEE</p>
+<section id="testimonials" class="testimonials">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">KATA MEREKA</span>
+            <h2 class="section-title">Testimoni Klien</h2>
+            <p class="section-subtitle">Apa kata klien kami tentang layanan BIGBEE</p>
+        </div>
+
+        <div class="testimonials-grid" id="testimonialsGrid">
+            <!-- semua testimoni card di sini -->
+             <!-- Testimoni 1 -->
+            <div class="testimonial-card">
+                <div class="testimonial-icon">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="testimonial-text">"Tim BIGBEE sangat profesional dan responsif. Instalasi jaringan di kantor kami selesai tepat waktu dengan kualitas terbaik. Sangat direkomendasikan!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="author-info">
+                        <h4>Budi Santoso</h4>
+                        <p>IT Manager, PT Bank Jatim</p>
+                    </div>
+                </div>
             </div>
 
-            <div class="testimonials-grid">
-                <!-- Testimoni 1 -->
-                <div class="testimonial-card">
-                    <div class="testimonial-icon">
-                        <i class="fas fa-quote-left"></i>
+            <!-- Testimoni 2 -->
+            <div class="testimonial-card">
+                <div class="testimonial-icon">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="testimonial-text">"Pengerjaan renovasi kantor sangat rapi dan terstruktur. Tim konstruksi BIGBEE juga sangat kooperatif dengan jadwal operasional kami. Hasilnya memuaskan!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">
+                        <i class="fas fa-user-circle"></i>
                     </div>
-                    <p class="testimonial-text">"Tim BIGBEE sangat profesional dan responsif. Instalasi jaringan di kantor kami selesai tepat waktu dengan kualitas terbaik. Sangat direkomendasikan!"</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">
-                            <i class="fas fa-user-circle"></i>
-                        </div>
-                        <div class="author-info">
-                            <h4>Budi Santoso</h4>
-                            <p>IT Manager, PT Bank Jatim</p>
-                        </div>
+                    <div class="author-info">
+                        <h4>Siti Rahayu</h4>
+                        <p>General Affairs, PT Marga Jaya Properti</p>
                     </div>
                 </div>
+            </div>
 
-                <!-- Testimoni 2 -->
-                <div class="testimonial-card">
-                    <div class="testimonial-icon">
-                        <i class="fas fa-quote-left"></i>
+            <!-- Testimoni 3 -->
+            <div class="testimonial-card">
+                <div class="testimonial-icon">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="testimonial-text">"Solusi integrated dari BIGBEE membantu kami menghemat biaya dan waktu. Dari IT sampai konstruksi, semuanya terintegrasi dengan baik. Partner yang bisa diandalkan!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">
+                        <i class="fas fa-user-circle"></i>
                     </div>
-                    <p class="testimonial-text">"Pengerjaan renovasi kantor sangat rapi dan terstruktur. Tim konstruksi BIGBEE juga sangat kooperatif dengan jadwal operasional kami. Hasilnya memuaskan!"</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">
-                            <i class="fas fa-user-circle"></i>
-                        </div>
-                        <div class="author-info">
-                            <h4>Siti Rahayu</h4>
-                            <p>General Affairs, PT Marga Jaya Properti</p>
-                        </div>
+                    <div class="author-info">
+                        <h4>Andi Wijaya</h4>
+                        <p>Direktur Operasional, PT Logistik Nusantara</p>
                     </div>
                 </div>
+            </div>
 
-                <!-- Testimoni 3 -->
-                <div class="testimonial-card">
-                    <div class="testimonial-icon">
-                        <i class="fas fa-quote-left"></i>
+            <!-- Testimoni 4 -->
+            <div class="testimonial-card">
+                <div class="testimonial-icon">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="testimonial-text">"Maintain support dari BIGBEE sangat membantu operasional rumah sakit kami. Response time cepat dan teknisi berpengalaman."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">
+                        <i class="fas fa-user-circle"></i>
                     </div>
-                    <p class="testimonial-text">"Solusi integrated dari BIGBEE membantu kami menghemat biaya dan waktu. Dari IT sampai konstruksi, semuanya terintegrasi dengan baik. Partner yang bisa diandalkan!"</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">
-                            <i class="fas fa-user-circle"></i>
-                        </div>
-                        <div class="author-info">
-                            <h4>Andi Wijaya</h4>
-                            <p>Direktur Operasional, PT Logistik Nusantara</p>
-                        </div>
+                    <div class="author-info">
+                        <h4>dr. Rina Permata</h4>
+                        <p>Kepala IT, RS Mitra Keluarga</p>
                     </div>
                 </div>
+            </div>
 
-                <!-- Testimoni 4 -->
-                <div class="testimonial-card">
-                    <div class="testimonial-icon">
-                        <i class="fas fa-quote-left"></i>
+            <!-- Testimoni 5 - Tambahan -->
+            <div class="testimonial-card">
+                <div class="testimonial-icon">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="testimonial-text">"Pelayanan sangat memuaskan, tim teknis cepat tanggap dan solutif. BIGBEE adalah mitra terpercaya untuk kebutuhan IT perusahaan kami."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">
+                        <i class="fas fa-user-circle"></i>
                     </div>
-                    <p class="testimonial-text">"Maintain support dari BIGBEE sangat membantu operasional rumah sakit kami. Response time cepat dan teknisi berpengalaman."</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">
-                            <i class="fas fa-user-circle"></i>
-                        </div>
-                        <div class="author-info">
-                            <h4>dr. Rina Permata</h4>
-                            <p>Kepala IT, RS Mitra Keluarga</p>
-                        </div>
+                    <div class="author-info">
+                        <h4>Hendra Wijaya</h4>
+                        <p>IT Director, PT Telkom Akses</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimoni 6 - Tambahan -->
+            <div class="testimonial-card">
+                <div class="testimonial-icon">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="testimonial-text">"Kualitas pekerjaan konstruksi sangat baik, sesuai spesifikasi dan tepat waktu. Tim BIGBEE sangat profesional dan mudah diajak koordinasi."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="author-info">
+                        <h4>Ir. Ahmad Fauzi</h4>
+                        <p>Project Manager, PT Gudang Garam</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimoni 7 - Tambahan -->
+            <div class="testimonial-card">
+                <div class="testimonial-icon">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="testimonial-text">"Instalasi jaringan dan CCTV sangat rapi. BIGBEE memberikan solusi yang tepat sesuai kebutuhan kami. Sangat puas dengan hasilnya!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="author-info">
+                        <h4>Dewi Lestari</h4>
+                        <p>Facility Manager, PT Unilever Indonesia</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimoni 8 - Tambahan -->
+            <div class="testimonial-card">
+                <div class="testimonial-icon">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="testimonial-text">"Data recovery yang dilakukan tim BIGBEE berhasil mengembalikan data penting perusahaan. Sangat profesional dan terpercaya!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="author-info">
+                        <h4>Rudi Hartono</h4>
+                        <p>IT Support, PT Pertamina</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimoni 9 - Tambahan -->
+            <div class="testimonial-card">
+                <div class="testimonial-icon">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="testimonial-text">"Harga bersaing dengan kualitas terbaik. BIGBEE memberikan solusi IT yang tepat guna untuk perusahaan kami. Highly recommended!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="author-info">
+                        <h4>Maria Ulfah</h4>
+                        <p>CEO, PT Surabaya Industrial Estate</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimoni 10 - Tambahan -->
+            <div class="testimonial-card">
+                <div class="testimonial-icon">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="testimonial-text">"Tim BIGBEE sangat memahami kebutuhan kami. Dari konsultasi hingga implementasi, semuanya berjalan lancar. Terima kasih BIGBEE!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="author-info">
+                        <h4>Dr. Budi Setiawan</h4>
+                        <p>Direktur RS Mitra Keluarga</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+
+        <!-- Pagination Controls for Testimonials -->
+        <div class="pagination-controls testimonials-pagination" id="testimonialPaginationControls">
+            <button class="pagination-btn" id="prevTestimonialPageBtn" disabled>
+                <i class="fas fa-chevron-left"></i> Sebelumnya
+            </button>
+            <div class="pagination-numbers" id="testimonialPaginationNumbers"></div>
+            <button class="pagination-btn" id="nextTestimonialPageBtn">
+                Selanjutnya <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+</section>
 
     <!-- Visi Misi Section -->
     <section id="about" class="visi-misi">
